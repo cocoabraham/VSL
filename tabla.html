@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<body>
+<table>
+  <tr>
+    <td>Hello</td>
+  </tr>
+  <tr>
+    <td>Hello</td>
+  </tr>
+  <tr>
+    <td>Hello</td>
+  </tr>
+  <tr>
+    <td>Hello</td>
+  </tr>
+  <tr>
+    <td>Hello</td>
+  </tr>
+  <tr>
+    <td>Hello</td>
+  </tr>
+</table>
+<button>click</button>
+<script src="js/jquery-2.2.3.min.js"></script> 
+<script type="text/javascript">
+    $('table').find('tr:gt(0)').hide();
+
+
+$("button").on("click", function() {
+    $('table').find('tr:gt(0)').toggle();
+});
+</script> 
+<script>
+          $(document).ready(function() {
+    var maxHeight = 0;
+    $(".thumbnail").each(function(){
+      if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+    });
+    $(".thumbnail").height(maxHeight);
+  });
+    </script>
+<script>
+        var $filtros = $('#filtros');
+        $filtros.on('show.bs.collapse', '.collapse', function () {
+            $filtros.find('.collapse.in').collapse('hide');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+
+
+#menu-0 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
+}
+#menu-0 .mbr-navbar__section {
+  background: #ffffff;
+}
+#menu-0 .mbr-navbar__hamburger {
+  color: #2c82c9;
+}
+#menu-0 .mbr-navbar__items a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+#content5-6 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #007b85;
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+}
+#content5-6 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-6 .mbr-article {
+  color: #fff;
+}
+#content5-6 .mbr-article P {
+  font-family: 'Open Sans', sans-serif;
+  color: #007b85;
+  font-size: 30px;
+  text-align: center;
+}
+#content5-4 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-4 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-4 .mbr-article {
+  color: #fff;
+}
+#footer1-8 P {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}

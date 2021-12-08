@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<meta name="description" content="descripción">
+<title>Vacaciones sin límite</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/mbr-style.css">
+<link rel="stylesheet" href="assets/mobirise-slider/style.css">
+<link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/fonts/icomoon/icomoon.css">
+<link href="css/uikit.css" rel="stylesheet">
+<link href="css/components/form-select.css" rel="stylesheet">
+<link href="css/components/datepicker.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/bootstrap-select.min.css">
+</head>
+
+<body>
+<section class="mbr-navbar mbr-navbar--freeze mbr-navbar--sticky mbr-navbar--auto-collapse" id="menu-0">
+  <div class="mbr-navbar__section mbr-section">
+    <div class="row">
+      <div class="col-md-12 top-bar text-white">
+        <div class="text row">
+                     <div id="top-bar-phone"  class="col-xs-6 text-left"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:55555555" class="text-white">+52 (55) 5555-5555</a></div>
+                     <div class="col-xs-6 text-right">
+                        <div id="dropdown-user" data-uk-dropdown="{mode:'click'}" class="uk-button-dropdown hidden-min-480" aria-haspopup="true" aria-expanded="false">
+                           <button class="uk-button">Iniciar sesión <i class="uk-icon-caret-down"></i></button>
+                           <div class="uk-dropdown uk-dropdown-bottom green-back text-left" style="top: 30px; left: 0px;">
+                              <ul class="text-center uk-nav uk-dropdown-nav">
+                                <li><a class="text-white first-child" href="#login" data-uk-modal>Iniciar sesión</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a class="text-white" href="#registro" data-uk-modal>Regístrate</a></li>
+                            </ul>
+                           </div>
+                        </div>
+                         <div class="hidden-max-479">
+                           <ul class="list-inline">
+                               <li><a class="text-white" href="#login" data-uk-modal>Iniciar sesión</a></li>
+                               <li> | </li>
+                               <li><a class="text-white" href="#registro" data-uk-modal>Regístrate</a></li>
+                             </ul>
+                        </div>
+                     </div>
+                  </div>
+      </div>
+    </div>
+    <!---menu--->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 margin-top-10">
+          <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </button>
+              <a href="index.html"><img src="images/logo.png" class="full-width-img"></a> </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li> <a href="index.html">Inicio</a> </li>
+                <li> <a class="select" href="nosotros.html" >Quiénes somos</a> </li>
+                <li> <a href="contacto.html">Contacto</a> </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!---memu---> 
+  </div>
+</section>
+<section id="parallax-destino">
+  <div style="background-image:url(images/parallax-interna-destino.jpg);" data-uk-parallax="{bg: '-200'}">
+    <div class="container text-center padding-Y-10">
+      <h2 class="text-white text-capitalize text-lobster"><span class="blue-background">ofertas</span></h2>
+    </div>
+  </div>
+</section>
+<section class="mbr-section" id="Listado-ofertas">
+  <div class="mbr-section__container container mbr-section__container--isolated">
+    <div class="row">
+      <div class="container white-background margin-top-2">
+        <p class="text-blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. Ut fermentum lacinia maximus. Suspendisse potenti. Pellentesque bibendum varius sapien, quis porttitor metus blandit in. Aenean ac venenatis libero. Maecenas eget enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <div class="recent-block recent-list recent-wide-thumbnail">
+          <div class="col-xs-8 col-xs-offset-2">
+            <div class="row region">
+              <div class="col-sm-6">
+                <h4 class="text-blue">Región</h4>
+                <select name="region" multiple>
+                  <option value="#">África</option>
+                  <option value="#">Centro y Sudamérica</option>
+                  <option value="#">Estados Unidos de América</option>
+                  <option value="#">Medio Oriente</option>
+                  <option value="#">México</option>
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <h4 class="text-blue">Subregión</h4>
+                <select name="subregion" multiple>
+                  <option value="#">Baja California Norte</option>
+                  <option value="#">Baja California Sur</option>
+                  <option value="#">Quintana Roo</option>
+                  <option value="#">Sonora</option>
+                  <option value="#">Yucatán</option>
+                </select>
+              </div>
+            </div>
+            <div class="clear">&nbsp;</div>
+            <a href="internaOfertas.html" class="btn button-green ">Buscar</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-8" style="background-color: rgb(92, 92, 92);">
+  <div class="mbr-section__container container" id="menu-1">
+    <div class="mbr-footer mbr-footer--wysiwyg row" style="padding-top: 36.900000000000006px; padding-bottom: 36.900000000000006px;">
+      <div class="col-sm-12">
+        <p class="mbr-footer__copyright">Resort Condominiums International de México, S. de R.L. de C.V. cuenta con las autorizaciones y licencias de RCI, LLC para utilizar el presente sitio. © 2015 RCI, LLC. Derechos Reservados.&nbsp;<a href="#terminos" data-uk-modal>Términos y condiciones</a>,&nbsp;<a href="#privacidad" data-uk-modal>Políticas de privacidad</a> </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!---inician modals---> 
+<!---mapa--->
+<div id="modal-map" class="uk-modal">
+  <div class="uk-modal-dialog uk-modal-dialog-blank">
+    <section id="map">
+      <div class="text-center">
+        <h2 class="text-blue text-lobster">ubicación</h2>
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13692.81329359994!2d-87.22750544386342!3d20.49883034496632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e47ff903d941d%3A0x543330a3b196b1cd!2sDreams+Puerto+Aventuras+Resort+%26+Spa!5e0!3m2!1sen!2smx!4v1469481679264" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<!---termina mapa--->
+<div id="registro" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-center">
+      <h2 class="text-blue text-lobster">Crear cuenta</h2>
+      <div class="margin-2">
+        <form class="uk-form width-96">
+          <fieldset>
+            <div class="uk-form-row">
+              <div class="col-sm-3 text-left form-text-blue text-medium"> Código de activación</div>
+              <div class="col-sm-9">
+                <input type="text" placeholder="Ingresa el código">
+              </div>
+              <div class="clear">&nbsp;</div>
+            </div>
+            <div class="text-center"> <a id="show2" class="btn button-green" href="#!">No tengo código</a>&nbsp; <a id="show" class="btn button-green" href="#!">Activar</a> </div>
+            <div class="clear">&nbsp;</div>
+            <div id="nuevo-registro" style="display:none;">
+              <div class="uk-form-row">
+                <div class="col-sm-4 text-left form-text-blue text-medium"> Nombre(s)</div>
+                <div class="col-sm-8">
+                  <input type="text" placeholder="Ingresa tu nombre">
+                </div>
+              </div>
+              <div class="uk-form-row">
+                <div class="col-sm-4 text-left form-text-blue text-medium"> Apellido(s)</div>
+                <div class="col-sm-8">
+                  <input type="text" placeholder="Ingresa tu apellido">
+                </div>
+              </div>
+              <div class="uk-form-row">
+                <div class="col-sm-4 text-left form-text-blue text-medium"> &nbsp;</div>
+                <div class="col-sm-8"> <a href="indexRegistro1.html" class="btn btn-facebook btn-lg full-width ">Regístrate con facebook</a> </div>
+              </div>
+              <div class="uk-form-row">
+                <div class="col-sm-4 text-left form-text-blue text-medium"> Correo electrónico</div>
+                <div class="col-sm-8">
+                  <input type="email" placeholder="Ingresa tu correo electrónico">
+                </div>
+              </div>
+              <div class="uk-form-row">
+                <div class="col-sm-4 text-left form-text-blue text-medium"> Contraseña</div>
+                <div class="col-sm-8">
+                  <input type="password" placeholder="Ingresa tu contraseña">
+                  <span class="help-block text-left text-small italic">Contraseña – Tu contraseña debe tener mínimo 8 caracteres, una mayúscula, un número y un carácter especial. Ejemplo: Contraseña#1</span> </div>
+              </div>
+              <div class="uk-form-row">
+                <div class="col-sm-4 text-left form-text-blue text-medium"> Confirmar contraseña</div>
+                <div class="col-sm-8">
+                  <input type="password" placeholder="Ingresa tu contraseña">
+                </div>
+              </div>
+              <div class="row text-center text-medium margin-top-2">
+                <input type="checkbox">
+                <span> Aceptar <a href="#!"> Términos y condiciones / Política de privacidad</a></span> </div>
+              <div class="clear">&nbsp;</div>
+              <div class="text-center"><a id="hide" class="btn button-green" href="#!">Cancelar</a>&nbsp;<a class="btn button-green" href="index-usuario.html">Crear</a> </div>
+            </div>
+            <div class="clear">&nbsp;</div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div id="login" class="uk-modal">
+  <div class="uk-modal-dialog max-width-600"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-center">
+      <img src="images/logo.png" class="full-width-img">
+      <div class="margin-2 text-left">
+        <hr>
+        <div class="forms-container">
+          <form class="uk-form width-96">
+            <div class="form-group c33 " data-cid="c33">
+              <label class="control-label form-text-blue text-medium" for="c33">Usuario</label>
+              <input class="form-control" id="c33" name="c33" value="" type="text">
+            </div>
+            <div class="form-group c46 " data-cid="c46">
+              <label class="control-label form-text-blue text-medium" for="c46">Contraseña</label>
+              <input placeholder="Aquí va el tooltip" class="form-control" id="c46" name="c46" value="" type="text">
+            </div>
+            <div class="form-group submit c100 " data-cid="c100" style="position: relative;">
+              <label class="control-label sr-only" for="c100" style="display: block;">Submit</label>
+              <a href="index-usuario.html" class="btn btn-primary btn-lg full-width ">Entrar</a> </div>
+            <div class="text-center">
+                           <div><a href="#!" class="text-grey text-medium">¿Olvidaste tu contraseña?</a> | <input type="checkbox"> <span class="text-grey text-medium">Recordar contraseña</span></div>
+                        </div><br>
+            
+            <a href="index-usuario.html" class="btn btn-facebook btn-lg full-width "><i class="fa fa-facebook-square" aria-hidden="true"></i> Entrar con facebook</a>
+          </form>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!---modal--->
+
+<!---modal--->
+
+<!---modal--->
+<!---modal--->
+      <div id="datos" class="uk-modal">
+         <div class="uk-modal-dialog">
+            <a class="uk-modal-close uk-close"></a>
+            <div class="text-center">
+               <h2 class="text-blue text-lobster">mi usuario</h2>
+               <hr>
+               <div class="margin-2">
+                  <form class="uk-form width-96">
+                     <fieldset>
+                        <div class="uk-form-row">
+                           <div class="col-sm-4 text-left form-text-blue text-medium"> Nombre(s)</div>
+                           <div class="col-sm-8">
+                              <input type="text" value="Jorge Abraham" disabled="">
+                           </div>
+                        </div>
+                        <div class="uk-form-row">
+                           <div class="col-sm-4 text-left form-text-blue text-medium" disabled=""> Apellido(s)</div>
+                           <div class="col-sm-8">
+                              <input type="text" value="Hernández Cruz" disabled="">
+                           </div>
+                        </div>
+                        <div class="uk-form-row">
+                           <div class="col-sm-4 text-left form-text-blue text-medium" disabled=""> Correo electrónico</div>
+                           <div class="col-sm-8">
+                              <input type="email" value="jorgeh@beek.com.mx" disabled="">
+                           </div>
+                        </div>
+                        <div class="uk-form-row">
+                           <div class="col-sm-4 text-left form-text-blue text-medium" disabled=""> Contraseña</div>
+                           <div class="col-sm-8">
+                              <input type="password" value="esta es una contraseña" disabled="">
+                           </div>
+                        </div>
+                         <div class="uk-form-row">
+                           <div class="col-sm-4 text-left form-text-blue text-medium" disabled=""> Contraseña</div>
+                           <div class="col-sm-8">
+                              <input type="password" value="esta es una contraseña" disabled="">
+                           </div>
+                        </div>
+                        <div class="uk-form-row"> <a class="btn btn-primary btn-lg width-80 " href="#!">Editar</a> </div>
+                     </fieldset>
+                  </form>
+               </div>
+            </div>
+            <div class="clear"></div>
+         </div>
+      </div>
+      <!---modal--->
+<div id="all-inclusive-obligatorio" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-center">
+      <h2 class="text-blue text-lobster">Hotel Todo Incluido</h2>
+      <div class="row">
+        <div class="col-sm-3"><img src="images/all-inclusive.png"></div>
+        <div class="col-sm-9">
+          <p class="text-blue">Optional All Inclusive Program Fees ane in Euros (not U.S. dollars) and are per person, per week. *Promotion: 1st Child 6-13 years old is free &amp; each additional child pays 50% of the adult fee. Mandatory New Years's Eve dinner (please contact the resort for applicable rates).</p>
+        </div>
+      </div>
+      <div>
+        <table class="uk-table text-left" style="font-size:80%" border="1">
+          <tbody>
+            <tr>
+              <td colspan="2" align="center" valign="middle">Check in between</td>
+              <td width="13%" rowspan="2" align="center" valign="middle">Fees</td>
+              <td width="6%" rowspan="2" align="center" valign="middle">Bedroom</td>
+              <td width="36%" rowspan="2" align="center" valign="middle">Notes:</td>
+            </tr>
+            <tr>
+              <td width="19%" align="center" valign="middle">Arrival</td>
+              <td width="26%" align="center" valign="middle">Departure</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2016-01-01</td>
+              <td align="center" valign="middle">2016-12-31</td>
+              <td align="center" valign="middle">&euro;160.00 per week, per adult in</td>
+              <td align="center" valign="middle">1</td>
+              <td align="left" valign="middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar volutpat egestas. In hac habitasse platea dictumst. Vivamus finibus volutpat justo, vitae varius elit pulvinar et. Sed congue rhoncus diam at aliquam. Proin id dolor vitae dolor faucibus pretium.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2016-01-01</td>
+              <td align="center" valign="middle">2016-12-31</td>
+              <td align="center" valign="middle">&euro;160.00 per week, per adult in</td>
+              <td align="center" valign="middle">2</td>
+              <td align="left" valign="middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar volutpat egestas. In hac habitasse platea dictumst. Vivamus finibus volutpat justo, vitae varius elit pulvinar et. Sed congue rhoncus diam at aliquam. Proin id dolor vitae dolor faucibus pretium.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2016-01-01</td>
+              <td align="center" valign="middle">2016-12-31</td>
+              <td align="center" valign="middle">&euro;80.00 per week, per adult in</td>
+              <td align="center" valign="middle">1</td>
+              <td align="left" valign="middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar volutpat egestas. In hac habitasse platea dictumst. Vivamus finibus volutpat justo, vitae varius elit pulvinar et. Sed congue rhoncus diam at aliquam. Proin id dolor vitae dolor faucibus pretium.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2016-01-01</td>
+              <td align="center" valign="middle">2016-12-31</td>
+              <td align="center" valign="middle">&euro;80.00 per week, per adult in</td>
+              <td align="center" valign="middle">2</td>
+              <td align="left" valign="middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar volutpat egestas. In hac habitasse platea dictumst. Vivamus finibus volutpat justo, vitae varius elit pulvinar et. Sed congue rhoncus diam at aliquam. Proin id dolor vitae dolor faucibus pretium.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="text-left"><a id="element1" href="#!" class="mas" onclick="javascript:changeText(1)">ver más</a></div>
+      </div>
+      <div class="text-center"><a href="#!" class="btn button-green">Cancelar</a>&nbsp;<a href="reserva01.html" class="btn button-green">Aceptar</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!---modal--->
+<div id="modal-pagar" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-center"> <a href="reservacion03.html"><img src="images/credit-card-info.jpg"></a> </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!---modal---> 
+<!---modal--->
+<div id="tarifas" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-center">
+      <h2 class="text-blue text-lobster">Tarífas</h2>
+      <p class="text-blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. Ut fermentum lacinia maximus. Suspendisse potenti. Pellentesque bibendum varius sapien, quis porttitor metus blandit in. Aenean ac venenatis libero. Maecenas eget enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. </p>
+      <p class="text-blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. Ut fermentum lacinia maximus. Suspendisse potenti. Pellentesque bibendum varius sapien, quis porttitor metus blandit in. Aenean ac venenatis libero. Maecenas eget enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. </p>
+      <p class="text-blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. Ut fermentum lacinia maximus. Suspendisse potenti. Pellentesque bibendum varius sapien, quis porttitor metus blandit in. Aenean ac venenatis libero. Maecenas eget enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. </p>
+      <div class="text-center"><a href="#!" class="btn button-green">Cancelar</a>&nbsp;<a href="reserva02.html" class="btn button-green">Aceptar y continuar</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!---modal---> 
+<!-- This is the modal -->
+<div id="terminos" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-justify">
+      <h2 class="text-blue text-lobster">Términos y condiciones</h2>
+      <p class="text-blue">Este documento describe los términos y condiciones generales (los "Términos y Condiciones Generales") aplicables tanto al acceso y uso del sitio de internet (el "Sitio") realizado por usted (indistintamente referido “Usuarios o Usted”).</P>
+      <p class="text-blue">TERMINOS Y CONDICIONES GENERALES PARA EL ACCESO Y USO DEL SITIO LO QUE USTED DEBE SABER Bienvenido al Sitio. El objeto principal de este Sitio es proveerlo de información acerca de los negocios, servicios, productos, amenidades, y anunciantes a fin de satisfacer sus necesidades en relación con dichos negocios, servicios, productos, amenidades y anunciantes (el “Contenido”). Estos Términos y Condiciones Generales tienen por objeto regular y proteger a todos los visitantes y usuarios del Sitio, al hacer uso del Sitio, usted manifiesta su aceptación con los mismos. SI USTED NO SE ENCUENTRA CONFORME CON ESTOS TÉRMINOS Y CONDICIONES GENERALES, POR FAVOR NO UTILICE ESTE SITIO DE INTERNET. Nosotros (indistintamente referidos como “Nosotros”, el “Intermediario” o el “Operador del Sitio”) nos reservamos el derecho a realizar modificaciones, ajustes y/o cambios al contenido de dichos Términos, los cuales tendrán plenos efectos una vez que sean publicados en el Sitio, por lo que el empleo continuo del Sitio siguiendo los cambios establecidos en estos Términos y Condiciones Generales, significará que usted acepta tales cambios. SI USTED NO ESTA DE ACUERDO CON LOS CAMBIOS Y/O AJUSTES REALIZADOS NO HAGA USO DEL SITIO POSTERIOR A LA PUBLICACION DE LOS MISMOS. el Sitio le permitirá enlazarse a otros sitios, los cuales podrán estar o no relacionados a este Sitio y/o al Intermediario el acceso a dichos sitios es responsabilidad exclusiva de Usted y del administrador y/o propietario de ese sitio, debiendo sujetarse a los términos y condiciones que ahí se señalen, reglas que son distintas a las aquí previstas, en consecuencia Usted reconoce y acepta que el Intermediario no es responsable por el contenido, promociones, políticas de privacidad, términos y condiciones publicados en otros sitios distintos a este Sitio. Favor de considerar que estos Términos y Condiciones Generales contienen declaraciones y disposiciones relacionadas con los limites de responsabilidad a cargo del Intermediario adicionales a lo antes señalado, por lo cual le invitamos a realizar la lectura de la normativa descrita para entender el alcance y contenido de los mismos previos a continuar navegando y utilizando el Sitio. </p>
+      <p class="text-blue">PRIVACIDAD La recopilación de información proporcionada por Usted en forma voluntaria a través del uso y acceso a los servicios proporcionados en este Sitio se encuentra sujeta a la normativa prevista en las Políticas de Privacidad del Sitio. Para mayor información, favor de acceder a las mismas, las cuales se encuentran publicadas en el Sitio en el apartado respectivo. </p>
+      <p class="text-blue">AUTORIZACIÓN Usted autoriza expresamente al Intermediario para que, en términos de lo dispuesto por las leyes aplicables en materia de defensa y protección al consumidor, reciba información publicitaria respecto de descuentos, promociones e información generalizada turística. En caso que Usted desee o no desee recibir información publicitaria o haya recibido la misma por error, favor de enviar notificarlo enviando un correo electrónico a para que, en el término concedido por las leyes, reglamentos y acuerdos aplicables se suspenda el envío de dicha información publicitaria. </p>
+      <p class="text-blue">MARCAS REGISTRADAS, DERECHOS DE AUTOR Y RESTRICCIONES El Sitio es controlado y operado por el Intermediario. Todo el Contenido del Sitio, incluyendo pero no limitándose al texto, imágenes, ilustraciones, audio y video pueden estar protegidos por derechos de autor, marcas registradas y/o derechos de propiedad intelectual que se encuentran regulados por las leyes federales o de las entidades provinciales/federativas aplicables y en su caso por los tratados, convenios, convenciones y acuerdos internacionales. Usted reconoce y acepta que el Intermediario cuenta con los permisos y autorizaciones necesarios y aplicables por ley para publicar el Contenido incluyendo pero no limitándose al texto, imágenes, ilustraciones, audio y video y materiales publicitarios, por lo que información contenida en el mismo no otorga permiso ó autorización alguna par realizar el uso de la misma siendo exclusivamente para su uso personal, Usted acepta obligarse y dar debido cumplimiento a cualquier notificación que le sea enviada en relación con el uso y restricciones aplicables al Contenido del Sitio. Las impresiones que usted realice en su computadora serán exclusivamente para su uso personal, dichas impresiones deberán contener los textos de estos Términos y Condiciones Generales, impresiones que no podrán ser transmitidos a otras personas físicas y/o morales que sean ajenas a usted, por ningún medio, ni tampoco podrá ser utilizado para otro fin que no sea para su uso personal, de lo contrario Usted deberá contar con la previa autorización por escrito del Intermediario o de los propietarios de dichos Contenidos según corresponda El uso no autorizado y explotación del Contenido incluyendo pero no limitándose al texto, imágenes, ilustraciones, audio y video y enlaces de otros sitios se encuentra estrictamente prohibido y será penado por la ley aplicable, Usted reconoce y entiende que el incumplimiento a lo antes señalado se entenderá como una violación a la protección de dichos derechos de propiedad intelectual asumiendo las responsabilidades que esto conlleve. </p>
+      <p class="text-blue">RESPONSABILIDADES A CARGO DE USTED Usted acepta y entiende que es el único responsable de los Datos (como dicho término se define más adelante) y el Intermediario actúa como un conducto pasivo para la distribución en línea de dichos Datos. Para efectos de los presentes Términos y Condiciones Generales se entenderá por “Datos” a cualquier tipo de información (personal o no) que Usted introduzca al Sitio así como cualquier tipo dato que sea resultado del uso realizado por Usted del Sitio. Asimismo, Usted entiende y acepta que al realizar el uso del Sitio es el único responsable de mantener la confidencialidad de los Datos, así como de cualquier número o código de identificación (denominados en su conjunto como “ID’s de Usuario”), números de confirmación y/o contraseñas Igualmente Usted se compromete a no distribuir o revelar dicha información a terceros, en consecuencia es responsabilidad de Usted notificar al Intermediario la necesidad de cambio o cancelación de alguno de los ID’s de Usuario, números de confirmación, códigos y/o contraseñas. En caso que las mismas hayan sido o tenga la creencia que han sido objeto de una violación de confidencialidad. En caso de incumplimiento el Intermediario se reserva el derecho de suspender o terminar anticipadamente el servicio o acceso al Sitio. Usted garantiza ser una persona mayor de edad, con plena capacidad jurídica para hacer uso del Sitio, así como para obligarse y asumir las responsabilidades en las que pueda incurrir como resultado de dicho uso. Usted entiende y está de acuerdo en ser responsable financieramente, en su caso, por toda la actividad y/o uso que se efectúe en el Sitio ya sea por su conducto o por aquellos que utilicen su ID de Usuario, número de confirmación, códigos y/o contraseñas, para acceder al Sitio, igualmente garantiza que todos los Datos otorgados por Usted o por aquellos que utilicen su ID de Usuario, son verdaderos, exactos, actuales y completos. En el evento que proporcione información y/o Datos que resulten falsos, inexactos, desactualizados o incompletos el Intermediario se reserva el derecho de suspender y/o terminar anticipadamente la actividad y acceso al Sitio, así como a negarse cualquier acceso presente o futuro al mismo. </p>
+      <p class="text-blue">ACTIVIDADES NO PERMITIDAS Usted reconoce y acepta que está prohibido: (i) realizar cualquier acción que imponga una carga desproporcionada o irracionalmente grande a la infraestructura del Sitio, enunciando a modo de ejemplo al correo basura o “spam” o cualquier otro tipo de técnicas de correo masivo no solicitado; (ii) revelar o compartir el ID de Usuario, números de confirmación, códigos y/o contraseñas con terceros con fines distintos a los permitidos; (iii) tratar de descifrar, descompilar, desarmar o revertir la ingeniería del programa o comprensión del código HTML o modificar en cualquier forma parte del Sitio; (iv) subir o cargar, pegar, enviar por correo electrónico o de cualquier manera transmitir cualquier información, contenido o derechos de los cuales no se tenga la autorización de transmitir ya sea por leyes aplicables o por medio de una relación contractual; (v) violar cualquier ley aplicable, mencionando sin limitar a cualquier código, reglamento, estatuto o cualquier otra regulación que tenga fuerza de ley; y (vi) usar cualquier robot, araña, agente inteligente o cualquier dispositivo automático o proceso manual para buscar, monitorear o copiar páginas o el Contenido del Sitio sin la autorización previa y por escrito del Intermediario, lo anterior en el entendido que el uso de programas de navegación en internet tales como Opera®, FireFox ®, y Microsoft Internet Explorer®, pueden ser utilizados sin necesidad de autorización previa del Intermediario. </p>
+      <p class="text-blue">ENLACES El Sitio puede contener enlaces a otros sitios ("Sitios Enlazados"). Los Sitios Enlazados se proporcionan para su conveniencia e información únicamente y, como tales, Usted ingresará a ellos bajo su propia responsabilidad. El contenido de dichos Sitios Enlazados no se encuentran bajo el control del Intermediario por tanto no es ni será responsable del contenido de los mismos. </p>
+      <p class="text-blue">RESTRICIONES, LÍMITE DE GARANTIAS Y RESPONSABILIDADES TODO EL CONTENIDO DEL SITIO ES PROPORCIONADO "COMO ES" Y NO OTORGA, RECONOCE O CONCEDE GARANTIAS DE NINGUN TIPO YA SEAN EXPRESAS O IMPLICITAS. LOS TÉRMINOS SE SUJETAN A LAS LEYES QUE SEAN APLICABLES. EL INTERMEDIARIO NO OTORGA, RECONOCE O CONCEDE CUALQUIERA Y/O TODAS LAS GARANTIAS, EXPRESAS O IMPLICITAS, INCLUYENDO, PERO NO LIMITÁNDOSE A, GARANTIAS IMPLICITAS DE COMERCIALIZACIÓN PARA UN CASO EN PARTICULAR. USTED, ACEPTA Y ENTIENDE QUE: (i) EL CONTENIDO AL QUE USTED ACCEDE EN ESTE SITIO ES PROPORCIONADO UNICAMENTE PARA SU CONVENIENCIA E INFORMACION (II) EL USO DEL SITIO ES BAJO SU PROPIO RIESGO; (iii) USTED ASUME EL COSTO TOTAL POR EL SERVICIO DE ACCESO A INTERNET Y LA REPARACIÓN O CORRECCIÓN DE SU EQUIPO DE CÓMPUTO QUE DERIVE DIRECTA O INDIRECTAMENTE POR EL USO DEL SITIO; (iv) NI EL INTERMEDIARIO O EMPRESAS RELACIONADAS, ANUNCIANTES, PROVEEDORES, NI LOS EMPLEADOS, FACTORES AGENTES DE CADA UNA DE ELLAS, O CUALQUIER PERSONA O EMPRESA INVOLUCRADA EN LA CREACIÓN, PRODUCCIÓN Y DISTRIBUCIÓN DEL SITIO, (A) NO GARANTIZAN LOS RESULTADOS QUE PUDIESEN SER OBTENIDOS POR EL USO DE ESTE SITIO NI GARANTIZA LA FIABILIDAD, VERACIDAD. EXACTITUD O ACTUALIZACIÓN DE CUALQUIER INFORMACIÓN AQUÍ CONTENIDA, POR LOS BIENES, PRODUCTOS Y /O SERVICIOS QUE SE PUDIERAN ADQUIRIR A TRAVÉS DEL SITIO (B) NO SERAN RESPONSABLES (i) DE CUALQUIER CLASE DE PERDIDAS, PERJUICIOS, DAÑOS (YA SEAN ACTUALES, CONSECUENCIALES, PUNITIVO O DE CUALQUIER OTRA FORMA), QUEJAS, RESPONSABILIDAD U OTRA CAUSA DE CUALQUIER TIPO O CARACTER RESULTANTE POR EL USO O INTENTO DE USO DEL SITIO O CUALQUIER SITIO ENLAZADO. (ii) NI GARANTIZAN QUE LAS FUNCIONES CONTENIDAS EN ESTE SITIO SE ENCUENTRAN LIBRES DE INTERRUPCIONES O ERRORES, QUE LOS ERRORES SERÁN CORREGIDOS, O QUE EL SERVIDOR QUE HACE POSIBLE EL CONTENIDO SE ENCUENTRE LIBRE DE VIRUS O CUALQUIER OTRO COMPONENTE DAÑINO (iii) NO SON RESPONSABLES POR CUALQUIER QUEJA O DAÑO RESULTANTE DE LA FALLA O DESEMPEÑO, ERROR U OMISIÓN, INTERRUPCIÓN, BORRADO, DEFECTO, RETRASO EN LA OPERACIÓN, VIRUS, ROBO, DESTRUCCIÓN, ACCESO NO AUTORIZADO O ALTERACIÓN DE LOS REGISTROS, O SEGURIDAD EN CUANTO AL USO DE LA INFORMACIÓN, OPINIÓN U OTROS MATERIALES QUE APAREZCAN EN EL SITIO (iv) EL INTERMEDIARIO NO ES RESPONSABLE POR ACTOS DE DIFAMACIÓN, CONDUCTAS OFENSIVAS O ILEGALES DE OTROS USUARIOS O TERCEROS. </p>
+      <p class="text-blue">INDEMNIZACIÓN Usted reconoce y acepta en indemnizar, defender y mantener ileso al Intermediario, anunciantes, proveedores, a los directores, empleados, afiliados, agentes, factores, licenciatarios, y proveedores de cada una de ellas, de y en contra de todas las pérdidas, gastos, daños, perjuicios y costos, incluyendo cuotas razonables de abogados, que resulten por cualquier violación de su parte de estos Términos. </p>
+      <p class="text-blue">DERECHOS DE TERCEROS Estos Términos son para beneficio del Intermediario, sus anunciantes, proveedores, los directores, empleados, afiliados, agentes y licenciatarios de cada una de ellas y en consecuencia cualquiera de los antes mencionados tendrá el derecho de ejecutar estos Términos en nombre y representación de la empresa afectada o por derecho propio. </p>
+      <p class="text-blue">ASUNTOS JURISDICCIONALES A menos que se especifique lo contrario, el contenido del Sitio es presentado únicamente por conveniencia e información al Usuario. Este Sitio es operado por el Intermediario sin embargo si Usted al acceder identifica cualquier material, contenido o servicios ofrecidos puedan interpretarse como contrario o violatorios a ley aplicable en su jurisdicción Usted no estará autorizado a ver o usar el Sitio y deberá abandonarlo de inmediato, si por el contrario usted utiliza y/o accede al Sitio, confirma que no tiene ninguna limitante o restricción para hacer uso del mismo. En consecuencia los Usuarios que decidan acceder a este Sitio desde otras localidades, lo hacen bajo su propio riesgo y son responsables del cumplimiento de las leyes locales aplicables en la Ciudad de México, Distrito Federal. En consecuencia los Usuarios que decidan accesar este sitio de internet desde otras localidades, lo hacen bajo su propio riesgo y son responsables del cumplimiento. En caso que cualquier material, contenido o servicios ofrecidos en el presente Sitio pudieren ser declarados como ilegales, nulos o por algún motivo inaplicables, dicha provisión deberá ser considerada fuera de ésta y no deberá afectar la validez y ejecución de las provisiones o condiciones restantes Cumpliendo con los términos de ley aplicable relativos a la exportación Usted no puede usar o exportar los materiales de este Sitio. Estos Términos y Condiciones Generales son regulados, interpretados y ejecutados de conformidad con las leyes locales que sean aplicables en la Ciudad de México, Distrito Federal. </p>
+      <p class="text-blue">ACUERDO COMPLETO Las condiciones de estos Términos y Condiciones Generales, y cada obligación señalada aquí, representan el acuerdo total entre Usted y el Intermediario respecto del Sitio y el uso del mismo. Una versión impresa de estos Términos y Condiciones Generales y cualquier aviso proporcionado vía electrónica, será admisible en procedimientos judiciales y/o jurisdiccionales, sujeto a las mismas condiciones que otros documentos y registros generados en forma impresa. Si hubiere una inconsistencia entre estos Términos y Condiciones Generales y cualesquier otros término(s) y/o Políticas de Privacidad publicado(s) en un tiempo posterior prevalecerán los de la última publicación.
+      <p class="text-blue">CUALQUIER DERECHO NO OTORGADO EXPRESAMENTE EN ESTOS TÉRMINOS SE ENTIENDE QUE ES EXCLUSIVO DEL INTERMEDIARIO.</p>
+      <p class="text-blue">Resort Condominiums International de México, S. de R.L. de C.V. cuenta con las autorizaciones y licencias de Resort Rental, LLC. para utilizar el presente sitio. © 2016 Resort Rental, LLC. Derechos Reservados.</p>
+      <div class="text-center"><a href="#!" class="btn button-green uk-modal-close">Cancelar</a>&nbsp;<a href="reserva01.html" class="btn button-green">Aceptar</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div id="privacidad" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-justify">
+      <h2 class="text-blue text-lobster">Política de privacidad</h2>
+      <p class="text-blue">Nosotros en RCI y la familia de compañías, subsidiarias y/o partes relacionadas de la Compañía Wyndham Worldwide Corporation, nuestra empresa matriz, (denominadas colectivamente como “RCI” o “nosotros”) reconocemos la importancia de proteger la privacidad de cierta información (“Información Personal”) recolectada de nuestros clientes, referidos como (“clientes”, “socios” o “usted”). La intención de RCI es hacerle comprender la forma en que recolectamos sus datos y el uso que hacemos de los mismos en el curso de nuestros negocios. Al presente Política de privacidad también se podrá referir indistintamente como Política de Privacidad.</p>
+      <p class="text-blue">Por tal motivo, RCI recaba dos tipos de información acerca de los socios: información que los socios proporcionan de manera opcional y a través del registro voluntario dentro de nuestros sitios (la información que solicitamos es: nombre completo, dirección de correo electrónico, país de residencia, ciudad, estado y teléfono); e información que RCI recaba por medio de rastreo adicional, principalmente al conciliar páginas vistas por medio de nuestros sitios. Dicha información nos permite ajustar nuestro contenido para satisfacer las necesidades de los Socios de una mejor manera y permite a nuestros anunciantes entender mejor a nuestra audiencia. Sin embargo, tenga la certeza que RCI no revelará a terceros, información personal recabada por RCI al utilizar esta página de Internet, sin su autorización, excepto cuando se especifique dentro de este Política de privacidad o se le informe a usted al momento de revelar la información.</p>
+      <p class="text-blue">Tipo de información</br>
+        Se recopila información en diferentes formas y de distintas  áreas del sitio web www.playablancavip.com. Se sujetarán a las normas de seguridad y privacidad todos aquellos datos personales que el usuario ingrese voluntariamente en dicha dirección electrónica. </p>
+      <p class="text-blue">La información solicitada a los usuarios en el sitio:</p>
+      <ul>
+        <li>•	Registro</li>
+        <li>•	ID</li>
+        <li>•	Apellido o apellidos</li>
+        <li>•	País</li>
+        <li>•	Correo electrónico</li>
+        <li>•	Contraseña deseada</li>
+        <li>•	Marcar checkbox de que acepta los Términos y condiciones de uso y Política de privacidad.</li>
+      </ul>
+      <p class="text-blue">Login:</p>
+      <ul>
+        <li>•	Usuario</li>
+        <li>•	Contraseña</li>
+      </ul>
+      <p class="text-blue">¿Cómo es que RCI recaba la información?</br>
+        Registro Opcional</br>
+        Nosotros recabamos la información solicitándola específicamente de usted. Esto generalmente ocurre cuando se registra en un sitio o solicita información o servicio. Usualmente, los sitios de RCI y servicios de compañías hermanas de RCI, utilizan su información para informarle acerca de otros productos o servicios disponibles de RCI y sus afiliados. </p>
+      <p class="text-blue">Utilización del Rastreo</br>
+        Uso del Protocolo de Internet en las Direcciones (“IP”)
+        Una dirección IP es un número único que es automáticamente asignado a su computadora cada vez que usted esta navegando en Internet para que su computadora pueda ser identificada por las computadoras principales, conocidas como “Servidores Web”, que “Sirven como” páginas Web.</br>
+        RCI y/o sus afiliados coleccionan direcciones de IP, para propósitos de administración del sistema,  a fin de proporcionar información adicional a sus anunciantes y para auditar el uso de nuestro sitio. Cuando los socios solicitan páginas de RCI y/o sus afiliados, nuestros servidores registran la dirección de IP del socio. Nosotros usualmente no vinculamos las direcciones de IP con nada personalmente identificable, lo que significa que la sesión de los socios permanece anónima para nosotros. Nosotros podemos y utilizaremos direcciones de IP para identificar a un Socio cuando lo creamos conveniente o a fin de hacer cumplir nuestros términos de uso de este sitio y términos de servicio para proteger nuestro servicio, sitio, otros socios u otros. </p>
+      <p class="text-blue">Uso de Cookies</br>
+        ¿Qué son cookies? Cookies son pequeños pedazos de información que un sitio de Internet envía a su computadora para propósitos de registro, dicha información es guardada en un archivo en su computadora. Las cookies hacen la navegación en Internet más fácil para usted al salvar sus preferencias y de este modo nosotros podemos utilizar la información salvada para facilitarle el uso de nuestro sitio, cada vez que decida regresar. Las cookies no nos dicen su identidad individual, a menos que usted haya decidido proporcionárnosla. Nunca guardamos contraseñas o información de tarjetas de crédito en cookies. El uso de cookies es una industria estándar, y como tal, usted encontrará que la mayoría de los sitios en Internet las utilizan.</br>
+        Al mostrar cómo y cuando los socios utilizan el sitio Web, las cookies nos ayudan a saber cuáles son las áreas más populares y cuáles no. Muchas mejoras y actualizaciones al Sitio se basan en dicha información como el total de visitantes y páginas vistas. Esta información es mucho más fácil de rastrear por medio de las cookies. Nosotros utilizamos la información de cookies para proporcionar servicios más adecuados a las necesidades de los socios.</br>
+        La mayoría de las cookies expira después de determinado tiempo, o usted puede borrar su archivo de cookies en cualquier momento. La mayoría de los browsers son configurados de inicio para aceptar cookies. Usted puede reconfigurar su browser para que no acepte cookies o para que le informe cada vez que una cookie es enviada. Sin embargo, usted se dará cuenta que algunos servicios de RCI o sus afiliados no funcionarán correctamente o será considerablemente más lentos si usted no acepta las cookies. Por ejemplo, sin cookies, usted no podrá establecer preferencias personalizadas, y/o podrá tener dificultad al completar transacciones de mercadotecnia.</br>
+        RCI y/o sus afiliados tienen dos principales usos de las cookies. El primero, los utilizamos para especificar las preferencias de los socios. Por ejemplo, los socios pueden especificar palabras claves a lo largo de diferentes categorías o mercados y así usted no decirnos repetidamente acerca de sus preferencias de viaje. Segundo, nosotros usamos las cookies para rastrear los patrones y tendencias de los socios en cuanto al uso del sitio. Esto nos ayuda a comprender mejor las necesidades de nuestros socios y mejorar las áreas de servicios que nuestros socios encuentran valiosas, tanto de RCI como de sus afiliados. Mientras que ambas actividades dependen del uso de las cookies, usted tiene la opción de deshabilitar las cookies desde su browser.</br>
+        Ocasionalmente usted podrá obtener cookies de sus anunciantes. RCI o sus afiliados no tienen control sobre estas cookies. El uso de los cookies de los anunciantes, enviados por servidores de terceros es un proceso estándar en la industria de Internet. </p>
+      <p class="text-blue">¿Con quién comparte RCI mi información?</br>
+        Como regla general, RCI no revelará ninguna información personal que usted nos haga llegar vía nuestro sitio en Internet, acerca de usted (“Información Personal”) de una forma que lo relacione con su Información Personal, excepto cuando tengamos su autorización o bajo determinadas circunstancias, tales como, cuando creamos conveniente que la ley requiera dicha información o bajo las circunstancias descritas a continuación. Lo siguiente describe algunas de las formas en que su Información Personal podría ser revelada. </p>
+      <p class="text-blue">Socios de Negocio y Patrocinadores:</br>
+        RCI podrá revelar alguna o toda la Información Personal a Socios de Negocio y Patrocinadores, pero este uso será específicamente descrito a usted antes de recabar la información o antes de transferir la información. Muchas promociones ofrecen oportunidades para solicitar información adicional de patrocinadores. Al solicitar mayor información, usted le otorga permiso a RCI para transferir Información Personal al patrocinador a fin de que ellos puedan llenar su solicitud. En muchos casos, únicamente su dirección de correo electrónico será compartida. En el caso de que más información sea compartida con los patrocinadores, usted será notificado antes de la transferencia. </p>
+      <p class="text-blue">Terceros e Información Adicional:</br>
+        De vez en cuando, se le ofrecerá la oportunidad de recibir propaganda u ofertas especiales de terceros. Si usted opta por recibir información de terceros, RCI (con su autorización) compartirá su nombre y dirección de correo electrónico con dichos terceros. Bajo acuerdos de confidencialidad, RCI podrá comparar Información Personal con la información de terceros.
+        También RCI podrá mantener un rastreo de la cantidad de socios que estén visitando la página, así como algunas otras estadísticas, y adicionar esta información para ayudarnos a una mejor experiencia para usuarios de nuestro Sitio Web. Todo esto es hecho sin saber su nombre o Información Personal a fin de describir a nuestros visitantes y servicios como posibles socios, anunciantes, y otros terceros, y para otros propósitos legales. </p>
+      <p class="text-blue">Otros:</br>
+        RCI podrá revelar Información de cuentas en casos específicos, cuando a juicio de RCI exista razón para creer que al revelar esta información se pueda identificar, contactar o ejercer acción legal en contra de alguna persona que pudiese estar violando los términos de uso o de servicio de RCI, o que pudiese estar causando perjuicio a/o interfiriendo (ya sea intencional o no intencional) con cualquiera de los derechos o propiedades de RCI, otros socios de RCI, o cualquiera que otro. RCI podrá revelar o accesar a su información de cuenta cuando creamos de buena voluntad que la ley la requiera y para administración y otros propósitos que creamos necesarios, a nuestra consideración, para mantener, servicio y mejorar nuestros productos y servicios. </p>
+      <p class="text-blue">¿Cómo es que usted puede controlar el uso de la Información?</br>
+        En caso de que usted cambie de parecer o alguna de su Información Personal cambie (tal como su Código Postal o dirección de correo electrónico), nosotros daremos la forma de acceder, rectificar, cancelar u oponer la Información Personal que nos proporcionó. También podrá controlar las comunicaciones que le hacemos llegar. Les ofrecemos a los socios la oportunidad de “optar por” tener la Información Personal compartida con partes externas a RCI y/o sus compañías afiliadas. Si un socio desea acceder, rectificar, cancelar u oponer su Información Personal o no esté de acuerdo con cualquier uso previsto en este Política de privacidad por cualquier razón, podrá enviar una solicitud a la siguiente dirección: protecciondedatospersonales@latam.rci.com
+        RCI, realiza campañas publicitarias a través de correo electrónico las cuales son enviadas solamente a los usuarios que así lo han solicitado. Los usuarios pueden optar por dejar de recibir estos avisos en cualquier momento que así lo deseen. Solo RCI tiene acceso a la información recabada por este medio. </p>
+      <p class="text-blue">¿Qué sucede cuando usted se enlaza con un sitio externo?</br>
+        Usted debe saber que cuando esté en algún sitio de RCI podrá ser enlazado o direccionado a otros sitios que estén fuera de su control y/o fuera de nuestro servicio. Por ejemplo, si usted da un “click” en algún anuncio o un resultado de búsqueda de RCI, el “click” lo podrá transferir fuera del sitio www.playablancavip.com.  Estos otros sitios podrían incluir sitios de anunciantes, patrocinadores o socios que pudieran utilizar el logo de RCI y/o sus afiliados como parte de un contrato de submarca. Estos otros sitios podrían mandar sus propias cookies a los socios, recabar información o solicitar Información.</br>
+        RCI no controla dichos sitios, y, por lo tanto no es responsable de sus contenidos, o los enlaces o propaganda que hayan escogido para poner en sus sitios. RCI y/o sus afiliados aunque incluyan links a estos sitios no implican ninguna relación o asociación con sus operantes. La política de RCI no se extiende a nada que sea inherente en la operación de Internet, lo cual esta más allá del control de RCI y sus afiliados. Por favor tenga en mente que cada vez que proporcione información por Internet (por ejemplo, en chats o cualquier otro) que la información podría ser recabada y utilizada por personas que no conoce. Mientras que en RCI nos esforzamos por proteger la Información de nuestros Socios y su privacidad, nosotros no podemos garantizarle la seguridad de ninguna información que usted divulgue en línea, y usted revela esa información bajo su propio riesgo. </p>
+      <p class="text-blue">¿Está segura mi información al utilizar el sitio de RCI?</br>
+        La seguridad de toda la información relacionada con nuestros socios es una gran preocupación para nosotros. Nos esforzamos en proveer una transmisión segura de información de su computadora a nuestros servidores. Desafortunadamente, ninguna transmisión de información vía Internet puede ser segura al 100%. Como resultado, mientras que nos esforzamos por proteger su información, RCI no puede asegurar o garantizar la seguridad de ninguna información que nos envíe a nosotros o por medio de nuestros productos o servicios en línea y usted lo hace bajo su propio riesgo. Una vez que recibimos su transmisión, RCI utiliza esfuerzos de estándares industriales para salvaguardar la confidencialidad de la información, tales como firewalls y conexiones seguras mediante Secure Socket Layers (SSL). Sin embargo, “seguridad perfecta” no existe en Internet. </p>
+      <p class="text-blue">MODIFICACIONES AL Política de privacidad</br>
+        RCI se reserva el derecho de efectuar en cualquier momento, modificaciones en el presente Política de privacidad y adaptarlas a novedades legislativas, jurisprudenciales, políticas internas, nuevos requerimientos para la prestación u ofrecimiento de nuestros servicios o productos, así como a prácticas del mercado.</br>
+        Estas modificaciones estarán disponibles en nuestra página de Internet en la sección de Política de privacidad. </p>
+      <p class="text-blue">CONFIDENCIALIDAD (MENORES DE EDAD)</br>
+        La salvaguarda de la información infantil es extremadamente importante, por lo que serán mínimos los datos solicitados para brindar los servicios que se le proporcione a este sector.</br>
+        Se recomienda a los padres y tutores que asesoren a los menores de edad al momento de navegar por Internet y que aprueben el envío de cualquier tipo de información personal. </p>
+      <p class="text-blue">ANTI-PHISHING</br>
+        Buscando su protección, le reiteramos que RCI no solicitará datos personales salvo que el Cliente acepte los Términos para llevar a cabo la actualización de los mismos por este medio. </p>
+      <p class="text-blue">SU ACEPTACIÓN A ESTOS TÉRMINOS</br>
+        Mediante la utilización de esta página Web, usted manifiesta su aceptación del Política de privacidad de RCI. SI USTED NO SE ENCUENTRA CONFORME CON ESTE Política de privacidad, POR FAVOR NO UTILICE ESTA PAGINA WEB. El empleo continuo de las páginas Web de RCI y/o sus entidades afiliadas o relacionadas, siguiendo los cambios establecidos en términos, significará que usted acepta tales cambios. </p>
+      <p class="text-blue">RCI es Resort Condominiums International de México, S. de R.L. de C.V., con domicilio en: Horacio 1855 los Morales Polanco México D.F. 11510. Dando cumplimiento a la Ley Federal de Protección de Datos Personales, le informa que sus datos serán protegidos a través del área responsable: Protección de Datos Personales, en caso que requiera mayor información envíe un correo a: protecciondedatospersonales@latam.rci.com</p>
+      <p class="text-blue">Fecha de última actualización: 6 de febrero de 2013.</p>
+      </P>
+      <div class="text-center"><a href="#!" class="btn button-green uk-modal-close">Cancelar</a>&nbsp;<a href="reserva01.html" class="btn button-green uk-modal-close">Aceptar</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div id="filtros-xs" class="uk-modal">
+         <div class="uk-modal-dialog">
+            <a class="uk-modal-close uk-close"></a>
+            <div class="text-center">
+               <h2 class="text-blue text-lobster">Filtros</h2>
+               <div class="margin-2">
+                  <div class="uk-accordion" data-uk-accordion="{showfirst:false}">
+                     <div class="col-md-15">
+                        <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-rango-de-precio.png"> Precios</h3>
+                        <div class="uk-accordion-content text-left white-background">
+                           <ul>
+                              <li>
+                                 <input type="checkbox">
+                                 $130.00 - $249.00
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 $500.00 - $649.00
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-15">
+                        <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-fechas.png"> Fecha de entrada</h3>
+                        <div class="uk-accordion-content text-left white-background">
+                           <ul>
+                              <li>
+                                 <input type="checkbox">
+                                 11-12-16
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 11-20-16
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 11-23-16
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 11-25-16
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 11-26-16
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 11-27-16
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 12-01-16
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 12-02-16
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-15">
+                        <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-rating.png"> Ratings</h3>
+                        <div class="uk-accordion-content text-left white-background">
+                           <ul>
+                              <li>
+                                 <input type="checkbox">
+                                 <img src="images/rating-5.png">
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 <img src="images/rating-4.png">
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 <img src="images/rating-3.png">
+                              </li>
+                              <li>
+                                 <input type="checkbox">
+                                 <img src="images/rating-2.png">
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-15">
+                        <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-tipo-de-unides.png"> Habitación</h3>
+                        <div class="uk-accordion-content text-left white-background">
+                           <div class="panel-body text-left">
+                              <ul>
+                                 <li>
+                                    <input type="checkbox">
+                                    Hotel
+                                 </li>
+                                 <li>
+                                    <input type="checkbox">
+                                    Studio
+                                 </li>
+                                 <li>
+                                    <input type="checkbox">
+                                    3 Bedroom
+                                 </li>
+                                 <li>
+                                    <input type="checkbox">
+                                    4 Bedroom
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-15">
+                        <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-actividades.png"> Actividades</h3>
+                        <div class="uk-accordion-content text-left white-background">
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <ul>
+                                    <li>
+                                       <input type="checkbox">
+                                       Videojuegos/juegos
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Cajero automático/Banco
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Bar/lounge
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Billar
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Centro de negocios
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Renta de auto
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Servicio de concierge
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Instalac. conferencias
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Cambio de moneda
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Portero
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Tintorería/Lavandería
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Gimnasio
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Regalos/Periódicos
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Servicio de supermercado
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Internet-verificar cuota
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Jacuzzi
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Idiomas hablados in situ
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Instalac. lavandería
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Marina
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Instalaciones médicas
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-6">
+                                 <ul>
+                                    <li>
+                                       <input type="checkbox">
+                                       Renta de películas
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Personal multilenguaje
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Idiomas del personal
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Club nocturno
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Piscina - Niños
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Piscina - Interna
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Piscina - Externa
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Piscina - # piscinas
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Piscina de olas
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Bar en la piscina
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Oficina postal
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       RCI Onsite
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Caja de seguridad
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Salón de belleza
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Sauna
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Spa
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Canchas deportivas
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Vapor
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Piscina
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Televisión en lobby
+                                    </li>
+                                    <li>
+                                       <input type="checkbox">
+                                       Cocina
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="clear"></div>
+         </div>
+      </div>
+      <div id="calendario-xs" class="uk-modal">
+         <div class="uk-modal-dialog max-width-600">
+            <a class="uk-modal-close uk-close"></a>
+            <div class="text-center">
+               <h2 class="text-blue text-lobster">Modificar fecha</h2>
+               <div class="margin-2 text-left">
+                  <hr>
+                  <p class="text-blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius risus at tortor scelerisque tincidunt. Donec vel metus sed nisl convallis finibus. Ut fermentum lacinia maximus. Suspendisse potenti. Pellentesque bibendum varius sapien, quis porttitor metus blandit in. Aenean ac venenatis libero. Maecenas eget enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <div class="forms-container">
+                     <form class="uk-form width-96">
+                        <div class="form-group " data-cid="">
+                           <label class="control-label form-text-blue text-medium" for="">Fecha de llegada</label>
+                           <input readonly="true" placeholder="Aquí va el tooltip" data-uk-datepicker="{format:'DD-MM-YYYY'}" type="text" placeholder="Selecciona el día">
+                        </div>
+                        <div class="form-group submit " data-cid="" style="position: relative;">
+                           <label class="control-label sr-only" for="" style="display: block;">Buscar</label>
+                           <a href="#!" class="btn btn-primary btn-lg full-width ">Buscar</a>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6"> </div>
+            <div class="clear"></div>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <!-- This is the modal -->
+
+<div id="filtros-xs-hotel" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-center">
+      <h2 class="text-blue text-lobster">Filtros</h2>
+      <div class="margin-2">
+        <div class="uk-accordion" data-uk-accordion="{showfirst:false}">
+          <div class="col-md-15">
+            <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-rango-de-precio.png"> Precios</h3>
+            <div class="uk-accordion-content text-left white-background">
+              <ul>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  < USD$ 500.00</li>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  USD$ 501.00 - USD$ 1,000.00</li>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  > USD$ 1,000.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-15">
+            <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-fechas.png"> Fecha de entrada</h3>
+            <div class="uk-accordion-content text-left white-background">
+              <ul>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  7 - 14 de Sept. 2016</li>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  7 - 14 de Sept. 2016</li>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  7 - 14 de Sept. 2016</li>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  7 - 14 de Sept. 2016</li>
+                <li class="text-medium">
+                  <input type="checkbox">
+                  7 - 14 de Sept. 2016</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-15">
+            <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-tipo-de-unides.png"> Habitación</h3>
+            <div class="uk-accordion-content text-left white-background">
+              <ul>
+                <li>opción 1</li>
+                <li>opción 1</li>
+                <li>opción 1</li>
+                <li>opción 1</li>
+                <li>opción 1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-15">
+            <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-ocupacion.png"> personas</h3>
+            <div class="uk-accordion-content text-left white-background">
+              <ul>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-15">
+            <h3 class="uk-accordion-title filters-background text-left text-white"><img src="images/ico-cocina.png"> Cocina</h3>
+            <div class="uk-accordion-content text-left white-background">
+              <ul>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+                <li class="text-medium">opción 1</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div id="misReservaciones" class="uk-modal">
+  <div class="uk-modal-dialog"> <a class="uk-modal-close uk-close"></a>
+    <div class="text-center">
+      <h2 class="text-blue text-lobster">Mis Reservaciones</h2>
+     <hr>
+      <div class="margin-2">
+        <section>
+          <div>
+            <div class="row">
+              <div class="text-center">
+                <p class="text-blue">Consulta aquí el historial de tus reservaciones.</p>
+                <table class="table table-hover text-left text-medium">
+                  <thead>
+                    <tr>
+                      <th>Fecha de entrada</th>
+                      <th>Fecha de salida</th>
+                      <th>Hotel</th>
+                      <th class="hidden-xs hidden-sm">Reservación</th>
+                      <th>&nbsp;</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>12/12/16</td>
+                      <td>19/12/16</td>
+                      <td>Dreams Puerto Aventuras</td>
+                      <td class="hidden-xs hidden-sm">00000-00000-0000-000</td>
+                      <td class="text-red"><a href="#!" class="text-red"> <i class="fa fa-file-pdf-o" aria-hidden="true"> </i> </a></td>
+                    </tr>
+                    <tr>
+                      <td>12/12/16</td>
+                      <td>19/12/16</td>
+                      <td>Dreams Puerto Aventuras</td>
+                      <td class="hidden-xs hidden-sm">00000-00000-0000-000</td>
+                      <td class="text-red"><a href="#!" class="text-red"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>12/12/16</td>
+                      <td>19/12/16</td>
+                      <td>Dreams Puerto Aventuras</td>
+                      <td class="hidden-xs hidden-sm">00000-00000-0000-000</td>
+                      <td class="text-red"><a href="#!" class="text-red"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!---finalizan modals---> 
+
+<script src="js/jquery-2.2.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="assets/smooth-scroll/SmoothScroll.js"></script> 
+<script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script> 
+<script src="assets/jarallax/jarallax.js"></script> 
+<script src="js/script.js"></script> 
+<script type="text/javascript" src="js/tether.min.js"></script> 
+<script type="text/javascript" src="js/mdb.min.js"></script> 
+<script type="text/javascript" src="js/uikit.min.js"></script> 
+<script type="text/javascript" src="js/components/form-select.js"></script> 
+<script src="js/components/datepicker.js" type="text/javascript"></script> 
+<script src="js/bootstrap-select.min.js" type="text/javascript"></script> 
+<script src="js/components/parallax.min.js"></script> 
+<script src="assets/masonry/masonry.pkgd.min.js"></script> 
+<script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+<script src="js/components/accordion.min.js"></script> 
+<script>
+         $('.selectpicker').selectpicker({
+             style: 'btn-white',
+             size: 4
+         });
+      </script>
+        <script>
+         $('.selectpickerXS').selectpicker({
+             style: 'btn-white2',
+             size: 4
+         });
+      </script> 
+<script>
+        $(document).ready(function () {
+            $(".navbar-nav li a").click(function (event) {
+                $(".navbar-collapse").collapse('hide');
+            });
+        });
+    </script> 
+<script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("#nuevo-registro").hide();
+            });
+            $("#show").click(function () {
+                $("#nuevo-registro").show();
+            });
+        });
+    </script> 
+<script>
+          $(document).ready(function() {
+    var maxHeight = 0;
+    $(".thumbnail").each(function(){
+      if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+    });
+    $(".thumbnail").height(maxHeight);
+  });
+    </script>
+<script>
+        var $filtros = $('#filtros');
+        $filtros.on('show.bs.collapse', '.collapse', function () {
+            $filtros.find('.collapse.in').collapse('hide');
+        });
+    </script>
+</body>
+</html>
